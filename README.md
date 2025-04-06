@@ -111,3 +111,14 @@ E-Ink-ul si RTC-ul sunt componente cu consum foarte redus, ceea ce permite un ti
 | BD5229G-TR | [Model](https://componentsearchengine.com/part-view/BD5229G-TR/ROHM%20Semiconductor) | [Datasheet](https://www.lcsc.com/datasheet/lcsc_datasheet_2201131330_ROHM-Semicon-BD5229G-TR_C962636.pdf) |
 | MCP73831T-5ACI/OT | [Model](https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP73831T-5ACI-OT?qs=hH%252BOa0VZEiAcgAcEkuamXg%3D%3D) | [Datasheet](//efaidnbmnnnibpcajpcglclefindmkaj/https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf) |
 | CAPACITOR | [Model](https://componentsearchengine.com/part-view/R0402%201%25%20100%20K%20(RC0402FR-07100KL)/YAGEO) | [Datasheet](//efaidnbmnnnibpcajpcglclefindmkaj/https://www.resistor.com/assets/pdf/0402tstd.pdf) |
+
+
+## Etapele implementarii proiectului:
+
+- Am realizat schematicul conform exemplului din cerinta si folosind biblioteca specificata. Am verificat cu ERC si nu am intampinat nicio eroare. Warningurile avute au fost acceptate deoarece nu reprezinta o problema pentru structura proiectului.
+
+- Am proiectat PCb-ul, unde am respectat in clar dimensiunile date. Am pozitionat cu grija piesele, incercand sa le pozitionez ca in fisierul exemplu. Am facut rutarea, planurile de masa si am rulat cu fisierul corect de DRC. Am rezolvat erorile de air wire pe cat de mult posibil, ramanand doar una, ce am fost nevoit sa o accept.
+
+- Am modelat piesele 3D si le-am integrat in placa. Am intampinat probleme in a gasi anumite modele 3D, ba chiar am fost nevoit sa creez singur test pad-urile.
+
+- Am creat manual bateria si displayul, dupa masuratorile si specificatiile cerute si le-am atasat, alaturi de modelul 3d al PCB-ului, la carcasa eBook-Reader-ului.
