@@ -4,6 +4,8 @@
 
 ## Diagrama bloc
 
+![Diagrama Bloc](https://github.com/DucaRaresAndrei/EBook-Reader/blob/main/Images/Diagram.png?raw=true)
+
 ## Descrierea functionalitatilor hardware
 
 Proiectul OpenBook Reader se bazeaza pe un microcontroller ESP32-C6 care gestioneaza comunicatia si controlul mai multor componente si senzori. Sistemul este alimentat fie printr-un port USB-C, fie printr-o baterie Li-Po reincarcabila, gestionata de un modul de incarcare MCP73831. Tensiunea de 3.3V necesara majoritatii componentelor este furnizata de un regulator LDO.
