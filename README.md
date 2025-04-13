@@ -124,3 +124,5 @@ E-Ink-ul si RTC-ul sunt componente cu consum foarte redus, ceea ce permite un ti
 - Am modelat piesele 3D si le-am integrat in placa. Am intampinat probleme in a gasi anumite modele 3D, ba chiar am fost nevoit sa creez singur test pad-urile.
 
 - Am creat manual bateria si displayul, dupa masuratorile si specificatiile cerute si le-am atasat, alaturi de modelul 3d al PCB-ului, la carcasa eBook-Reader-ului.
+
+- Am corectat erorile, iar acum proiectul poate fi complet functional. 
